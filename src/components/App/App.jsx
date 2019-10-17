@@ -1,6 +1,5 @@
 import React from 'react';
 import './styles.css';
-// @ts-ignore
 import Header from '../Header/Header.tsx';
 
 export class App extends React.Component {
