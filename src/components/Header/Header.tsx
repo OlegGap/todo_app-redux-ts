@@ -9,8 +9,8 @@ const Header = ({ name }: Header) => {
   return (
     <div className={styled.headerContainer}>
       <div className={styled.headerWrapper}>
-        <div className={styled.headerLogo}>TODO</div>
-        <div className={styled.headerName}>{name}</div>
+        <div>TODO</div>
+        <div>{name}</div>
       </div>
     </div>
   );

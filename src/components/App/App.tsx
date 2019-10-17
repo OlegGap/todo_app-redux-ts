@@ -1,6 +1,6 @@
 import React from 'react';
 import './styles.css';
-import Header from '../Header/Header.tsx';
+import Header from '../Header/Header';
 
 export class App extends React.Component {
   componentDidMount() {
