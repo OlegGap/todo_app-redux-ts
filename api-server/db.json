@@ -1,0 +1,55 @@
+{
+  "profile": {
+    "name": "Oleg"
+  },
+  "lists": {
+    "todo": [
+      {
+        "id": "SkcAK3URV",
+        "title": "some title bla bla",
+        "text": "Placeat ad vel quia qui quidem dolores tempora ullam. Voluptate vel consequatur fugit qui in. Nobis quis libero labore porro expedita nihil.",
+        "mark": "red"
+      },
+      {
+        "id": "HJxqAF380N",
+        "title": "some title bla bla",
+        "text": "Placeat ad vel quia qui quidem dolores tempora ullam. Voluptate vel consequatur fugit qui in. Nobis quis libero labore porro expedita nihil.",
+        "mark": "red"
+      }
+    ],
+    "in progress": [
+      {
+        "id": "SkcAJ3URV",
+        "title": "some title bla bla",
+        "text": "Placeat ad vel quia qui quidem dolores tempora ullam. Voluptate vel consequatur fugit qui in. Nobis quis libero labore porro expedita nihil.",
+        "mark": "red"
+      },
+      {
+        "id": "HJxqFF380N",
+        "title": "some title bla bla",
+        "text": "Placeat ad vel quia qui quidem dolores tempora ullam. Voluptate vel consequatur fugit qui in. Nobis quis libero labore porro expedita nihil.",
+        "mark": "red"
+      },
+      {
+        "id": "HJxqSF380N",
+        "title": "some title bla bla",
+        "text": "Placeat ad vel quia qui quidem dolores tempora ullam. Voluptate vel consequatur fugit qui in. Nobis quis libero labore porro expedita nihil.",
+        "mark": "red"
+      }
+    ],
+    "done": [
+      {
+        "id": "SkcDA3URV",
+        "title": "some title bla bla",
+        "text": "Placeat ad vel quia qui quidem dolores tempora ullam. Voluptate vel consequatur fugit qui in. Nobis quis libero labore porro expedita nihil.",
+        "mark": "red"
+      },
+      {
+        "id": "HJxqLK380N",
+        "title": "some title bla bla",
+        "text": "Placeat ad vel quia qui quidem dolores tempora ullam. Voluptate vel consequatur fugit qui in. Nobis quis libero labore porro expedita nihil.",
+        "mark": "red"
+      }
+    ]
+  }
+}
