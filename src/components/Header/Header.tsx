@@ -2,15 +2,17 @@ import React from 'react';
 import styled from './Header.module.css';
 
 export interface Header {
-  name: string;
+  profile: string;
 }
 
-const Header = ({ name }: Header) => {
+const Header = ({ profile }: Header) => {
+  console.log(profile);
+
   return (
     <div className={styled.headerContainer}>
       <div className={styled.headerWrapper}>
         <div>TODO</div>
-        <div>{name}</div>
+        <div>{}</div>
       </div>
     </div>
   );

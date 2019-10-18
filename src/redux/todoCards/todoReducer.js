@@ -20,14 +20,23 @@ const cardsReducer = (state = [], { type, payload }) => {
   }
 };
 
+const loadingReducer = (state = false, { type }) => {
+  switch (type) {
+    case Type.FETCH_CARDS_START:
+      return false;
+    case Type.FETCH_CARDS_SUCCESS:
+      return true;
+    default:
+      return state;
+  }
+};
+
 const errorReducer = (state = null, { type, payload }) => {
   switch (type) {
+    case Type.FETCH_CARDS_START:
+      return state;
     case Type.FETCH_CARDS_ERROR:
       return payload.error;
-
-    // case Type.FETCH_CARDS_ERROR:
-    //   return payload.error;
-
     default:
       return state;
   }
@@ -35,5 +44,6 @@ const errorReducer = (state = null, { type, payload }) => {
 
 export default combineReducers({
   lists: cardsReducer,
+  loading: loadingReducer,
   error: errorReducer,
 });

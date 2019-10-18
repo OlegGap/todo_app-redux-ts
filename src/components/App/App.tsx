@@ -1,17 +1,29 @@
 import React from 'react';
 import './styles.css';
 import Header from '../Header/Header';
+import ListContainer from '../ListContainer/ListContainer';
 
-export class App extends React.Component {
+type AppProps = {
+  loading: boolean;
+  error: boolean;
+  profile: string;
+  fetchCards: any;
+  fetchProfile: any;
+};
+
+export class App extends React.Component<AppProps> {
   componentDidMount() {
-    // this.props.fetchCards();
-    // this.props.fetchProfile();
-    // axios.get('http://localhost:8086/posts');
-    // .then(data => console.log(data.data));
+    this.props.fetchCards();
+    this.props.fetchProfile();
   }
 
   render() {
-    return <Header name="Oleg" />;
+    return (
+      <>
+        <Header profile={this.props.profile} />
+        <ListContainer />
+      </>
+    );
   }
 }
 

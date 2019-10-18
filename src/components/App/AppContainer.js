@@ -1,7 +1,18 @@
 import { connect } from 'react-redux';
 import * as todoOperations from '../../redux/todoCards/todoOperations';
 import fetchProfile from '../../redux/profile/profileOperations';
+import {
+  getLoading,
+  getError,
+  getProfile,
+} from '../../redux/todoCards/todoSelectors';
 import App from './App.tsx';
+
+const mapStateToProps = state => ({
+  loading: getLoading(state),
+  error: getError(state),
+  profile: getProfile(state),
+});
 
 const mapDispatchToProps = {
   fetchCards: todoOperations.fetchCards,
@@ -9,6 +20,6 @@ const mapDispatchToProps = {
 };
 
 export default connect(
-  null,
+  mapStateToProps,
   mapDispatchToProps,
 )(App);
