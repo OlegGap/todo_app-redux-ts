@@ -1,40 +1,41 @@
 {
   "profile": {
-    "name": "Name"
+    "name": "Name",
+    "surname": "Surname"
   },
   "lists": {
     "todo": [
       {
         "id": "SkcAK3URV",
-        "title": "some title bla bla",
+        "title": "some title bla bla aceat ad vel quia qui quidem dolores tem",
         "text": "Placeat ad vel quia qui quidem dolores tempora ullam. Voluptate vel consequatur fugit qui in. Nobis quis libero labore porro expedita nihil.",
-        "mark": "red"
+        "mark": "ffe400"
       },
       {
         "id": "HJxqAF380N",
         "title": "some title bla bla",
         "text": "Placeat ad vel quia qui quidem dolores tempora ullam. Voluptate vel consequatur fugit qui in. Nobis quis libero labore porro expedita nihil.",
-        "mark": "red"
+        "mark": "5ab9ea"
       }
     ],
     "in progress": [
       {
         "id": "SkcAJ3URV",
-        "title": "some title bla bla",
+        "title": "some title bla bllla",
         "text": "Placeat ad vel quia qui quidem dolores tempora ullam. Voluptate vel consequatur fugit qui in. Nobis quis libero labore porro expedita nihil.",
-        "mark": "red"
+        "mark": "8860d0"
       },
       {
         "id": "HJxqFF380N",
         "title": "some title bla bla",
         "text": "Placeat ad vel quia qui quidem dolores tempora ullam. Voluptate vel consequatur fugit qui in. Nobis quis libero labore porro expedita nihil.",
-        "mark": "red"
+        "mark": "11252a"
       },
       {
         "id": "HJxqSF380N",
         "title": "some title bla bla",
         "text": "Placeat ad vel quia qui quidem dolores tempora ullam. Voluptate vel consequatur fugit qui in. Nobis quis libero labore porro expedita nihil.",
-        "mark": "red"
+        "mark": "f76c6c"
       }
     ],
     "done": [
@@ -42,13 +43,13 @@
         "id": "SkcDA3URV",
         "title": "some title bla bla",
         "text": "Placeat ad vel quia qui quidem dolores tempora ullam. Voluptate vel consequatur fugit qui in. Nobis quis libero labore porro expedita nihil.",
-        "mark": "red"
+        "mark": "86c232"
       },
       {
         "id": "HJxqLK380N",
         "title": "some title bla bla",
         "text": "Placeat ad vel quia qui quidem dolores tempora ullam. Voluptate vel consequatur fugit qui in. Nobis quis libero labore porro expedita nihil.",
-        "mark": "red"
+        "mark": "f0ebf4"
       }
     ]
   }

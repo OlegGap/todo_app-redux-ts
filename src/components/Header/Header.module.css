@@ -1,5 +1,5 @@
 .headerContainer {
-  background-color: #85dcbb;
+  background-color: #c5cbe3;
   height: 70px;
 }
 .headerWrapper {
@@ -8,6 +8,6 @@
   display: flex;
   justify-content: space-between;
   font-size: 40px;
-  font-family: 'Open-Sans-Black', 'Open Sans';
+  font-family: 'Open Sans';
   line-height: 70px;
 }

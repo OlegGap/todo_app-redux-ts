@@ -1,17 +1,17 @@
 import React from 'react';
 import './styles.css';
 import Header from '../Header/Header';
-import ListContainer from '../ListContainer/ListContainer';
+import Lists from '../Lists/ListsContainer.js';
 
-type AppProps = {
-  loading: boolean;
-  error: boolean;
-  profile: string;
-  fetchCards: any;
-  fetchProfile: any;
-};
+// type AppProps = {
+//   loading: boolean;
+//   error: boolean;
+//   profile: string;
+//   fetchCards: any;
+//   fetchProfile: any;
+// };
 
-export class App extends React.Component<AppProps> {
+class App extends React.Component {
   componentDidMount() {
     this.props.fetchCards();
     this.props.fetchProfile();
@@ -21,7 +21,7 @@ export class App extends React.Component<AppProps> {
     return (
       <>
         <Header profile={this.props.profile} />
-        <ListContainer />
+        <Lists />
       </>
     );
   }

@@ -1,25 +1,23 @@
 import { connect } from 'react-redux';
 import * as todoOperations from '../../redux/todoCards/todoOperations';
-import fetchProfile from '../../redux/profile/profileOperations';
 import {
   getLoading,
   getError,
-  getProfile,
+  getLists,
 } from '../../redux/todoCards/todoSelectors';
-import App from './App.jsx';
+import Lists from './Lists.jsx';
 
 const mapStateToProps = state => ({
   loading: getLoading(state),
   error: getError(state),
-  profile: getProfile(state),
+  lists: getLists(state),
 });
 
 const mapDispatchToProps = {
-  fetchCards: todoOperations.fetchCards,
-  fetchProfile,
+  fetchLists: todoOperations.fetchCards,
 };
 
 export default connect(
   mapStateToProps,
   mapDispatchToProps,
-)(App);
+)(Lists);
