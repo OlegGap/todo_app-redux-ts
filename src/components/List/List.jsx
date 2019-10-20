@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from '../Card/Card';
 import styles from './List.module.css';
-import AddCard from '../AddCard/AddCard';
+import AddCard from '../AddCard/AddCardContainer';
 
 const ListContainer = ({ listName, listCards }) => (
   <div className={styles.listContainer}>
@@ -10,7 +10,7 @@ const ListContainer = ({ listName, listCards }) => (
       {listCards.map(card => (
         <Card key={card.id} cardData={card} />
       ))}
-      <AddCard />
+      <AddCard currentListName={listName} />
     </ul>
   </div>
 );

@@ -8,48 +8,78 @@
       {
         "id": "SkcAK3URV",
         "title": "some title bla bla aceat ad vel quia qui quidem dolores tem",
-        "text": "Placeat ad vel quia qui quidem dolores tempora ullam. Voluptate vel consequatur fugit qui in. Nobis quis libero labore porro expedita nihil.",
-        "mark": "ffe400"
+        "description": "Placeat ad vel quia qui quidem dolores tempora ullam. Voluptate vel consequatur fugit qui in. Nobis quis libero labore porro expedita nihil.",
+        "mark": "#ffe400"
       },
       {
         "id": "HJxqAF380N",
         "title": "some title bla bla",
-        "text": "Placeat ad vel quia qui quidem dolores tempora ullam. Voluptate vel consequatur fugit qui in. Nobis quis libero labore porro expedita nihil.",
-        "mark": "5ab9ea"
+        "description": "Placeat ad vel quia qui quidem dolores tempora ullam. Voluptate vel consequatur fugit qui in. Nobis quis libero labore porro expedita nihil.",
+        "mark": "#5ab9ea"
+      },
+      {
+        "id": "ab4c59",
+        "title": "new task",
+        "deadline": "2019-09-20"
+      },
+      {
+        "id": "f49897",
+        "title": "new"
+      },
+      {
+        "id": "58a7c7",
+        "title": "d"
       }
     ],
     "in progress": [
       {
         "id": "SkcAJ3URV",
         "title": "some title bla bllla",
-        "text": "Placeat ad vel quia qui quidem dolores tempora ullam. Voluptate vel consequatur fugit qui in. Nobis quis libero labore porro expedita nihil.",
-        "mark": "8860d0"
+        "description": "Placeat ad vel quia qui quidem dolores tempora ullam. Voluptate vel consequatur fugit qui in. Nobis quis libero labore porro expedita nihil.",
+        "mark": "#8860d0"
       },
       {
         "id": "HJxqFF380N",
         "title": "some title bla bla",
-        "text": "Placeat ad vel quia qui quidem dolores tempora ullam. Voluptate vel consequatur fugit qui in. Nobis quis libero labore porro expedita nihil.",
-        "mark": "11252a"
+        "description": "Placeat ad vel quia qui quidem dolores tempora ullam. Voluptate vel consequatur fugit qui in. Nobis quis libero labore porro expedita nihil.",
+        "mark": "#11252a"
       },
       {
         "id": "HJxqSF380N",
         "title": "some title bla bla",
-        "text": "Placeat ad vel quia qui quidem dolores tempora ullam. Voluptate vel consequatur fugit qui in. Nobis quis libero labore porro expedita nihil.",
-        "mark": "f76c6c"
+        "description": "Placeat ad vel quia qui quidem dolores tempora ullam. Voluptate vel consequatur fugit qui in. Nobis quis libero labore porro expedita nihil.",
+        "mark": "#f76c6c"
+      },
+      {
+        "id": "ab0af1",
+        "title": "progg",
+        "description": "bll",
+        "deadline": "2019-09-22",
+        "mark": "in progress"
+      },
+      {
+        "id": "906cd6",
+        "title": "bla bla",
+        "mark": "#86c232"
+      },
+      {
+        "id": "9c7dd3",
+        "title": "kk",
+        "mark": "#5ab9ea"
       }
     ],
     "done": [
       {
         "id": "SkcDA3URV",
         "title": "some title bla bla",
-        "text": "Placeat ad vel quia qui quidem dolores tempora ullam. Voluptate vel consequatur fugit qui in. Nobis quis libero labore porro expedita nihil.",
-        "mark": "86c232"
+        "description": "Placeat ad vel quia qui quidem dolores tempora ullam. Voluptate vel consequatur fugit qui in. Nobis quis libero labore porro expedita nihil.",
+        "mark": "#86c232"
       },
       {
         "id": "HJxqLK380N",
         "title": "some title bla bla",
-        "text": "Placeat ad vel quia qui quidem dolores tempora ullam. Voluptate vel consequatur fugit qui in. Nobis quis libero labore porro expedita nihil.",
-        "mark": "f0ebf4"
+        "description": "Placeat ad vel quia qui quidem dolores tempora ullam. Voluptate vel consequatur fugit qui in. Nobis quis libero labore porro expedita nihil.",
+        "mark": "#f0ebf4"
       }
     ]
   }

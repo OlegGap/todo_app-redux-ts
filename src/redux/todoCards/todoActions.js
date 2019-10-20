@@ -3,12 +3,13 @@ export const Type = {
   FETCH_CARDS_SUCCESS: 'FETCH_CARDS_SUCCESS',
   FETCH_CARDS_ERROR: 'FETCH_CARDS_ERROR',
 
-  ADD_CARD: 'ADD_CARD_SUCCESS',
+  ADD_CARD_START: 'ADD_CARD_START',
+  ADD_CARD_ERROR: 'ADD_CARD_ERROR',
+  ADD_CARD_SUCCESS: 'ADD_CARD_SUCCESS',
+
   MODIFY_CARD: 'MODIFY_CARD_SUCCESS',
   REMOVE_CARD: 'REMOVE_CARD_SUCCESS',
   ADD_LIST: 'ADD_LIST',
-  MODIFY_LIST: 'MODIFY_LIST',
-  REMOVE_LIST: 'REMOVE_LIST',
 };
 
 export const fetchCardsStart = () => ({
@@ -25,16 +26,16 @@ export const fetchCardsError = error => ({
   payload: { error },
 });
 
-export const addCardsStart = () => ({
-  type: Type.ADD_CARDS_START,
+export const addCardStart = () => ({
+  type: Type.ADD_CARD_START,
 });
 
-export const addCardsSuccess = cards => ({
-  type: Type.ADD_CARDS_SUCCESS,
+export const addCardSuccess = cards => ({
+  type: Type.ADD_CARD_SUCCESS,
   payload: { cards },
 });
 
-export const addCardsError = error => ({
-  type: Type.ADD_CARDS_ERROR,
+export const addCardError = error => ({
+  type: Type.ADD_CARD_ERROR,
   payload: { error },
 });

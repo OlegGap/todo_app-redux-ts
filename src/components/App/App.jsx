@@ -1,4 +1,6 @@
 import React from 'react';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import './styles.css';
 import Header from '../Header/Header';
 import Lists from '../Lists/ListsContainer.js';
@@ -22,6 +24,7 @@ class App extends React.Component {
       <>
         <Header profile={this.props.profile} />
         <Lists />
+        <ToastContainer />
       </>
     );
   }

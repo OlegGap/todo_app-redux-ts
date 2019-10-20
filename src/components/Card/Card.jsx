@@ -7,13 +7,15 @@ const ListContainer = ({ cardData }) => (
     <div className={styles.cardContent}>
       <h4 className={styles.cardTitle}>{cutString(cardData.title, 50)}</h4>
       <div className={styles.shortInfo}>
-        <div className={styles.subtasks}>3/4</div>
-        <div className={styles.deadline}>DL: 10/11/19</div>
+        <div className={styles.subtasks} />
+        <div className={styles.deadline}>
+          {cardData.deadline ? `DL:${cardData.deadline}` : null}
+        </div>
       </div>
     </div>
     <div
       className={styles.cardMark}
-      style={{ backgroundColor: `#${cardData.mark}` }}
+      style={{ backgroundColor: `${cardData.mark}` }}
     />
   </li>
 );

@@ -3,6 +3,9 @@ import {
   fetchCardsStart,
   fetchCardsSuccess,
   fetchCardsError,
+  addCardStart,
+  addCardSuccess,
+  addCardError,
 } from './todoActions.js';
 
 export const fetchCards = () => dispatch => {
@@ -16,4 +19,15 @@ export const fetchCards = () => dispatch => {
       dispatch(fetchCardsError(error));
     });
 };
-export default {};
+
+export const addCard = data => dispatch => {
+  dispatch(addCardStart());
+  axios
+    .post('http://localhost:8086/lists/', data)
+    .then(response => {
+      dispatch(addCardSuccess(response.data));
+    })
+    .catch(error => {
+      dispatch(addCardError(error));
+    });
+};

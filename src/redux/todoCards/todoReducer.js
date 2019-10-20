@@ -23,8 +23,10 @@ const cardsReducer = (state = [], { type, payload }) => {
 const loadingReducer = (state = false, { type }) => {
   switch (type) {
     case Type.FETCH_CARDS_START:
+    case Type.ADD_CARD_START:
       return false;
     case Type.FETCH_CARDS_SUCCESS:
+    case Type.ADD_CARD_SUCCESS:
       return true;
     default:
       return state;
@@ -34,8 +36,10 @@ const loadingReducer = (state = false, { type }) => {
 const errorReducer = (state = null, { type, payload }) => {
   switch (type) {
     case Type.FETCH_CARDS_START:
+    case Type.ADD_CARD_START:
       return state;
     case Type.FETCH_CARDS_ERROR:
+    case Type.ADD_CARD_ERROR:
       return payload.error;
     default:
       return state;
