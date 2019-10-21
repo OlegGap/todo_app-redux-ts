@@ -29,6 +29,10 @@
       {
         "id": "58a7c7",
         "title": "d"
+      },
+      {
+        "id": "3851fd",
+        "title": "bla bka"
       }
     ],
     "in progress": [
@@ -66,6 +70,12 @@
         "id": "9c7dd3",
         "title": "kk",
         "mark": "#5ab9ea"
+      },
+      {
+        "id": "dd81a0",
+        "title": "bla bka",
+        "description": "d",
+        "mark": "#ffe400"
       }
     ],
     "done": [
