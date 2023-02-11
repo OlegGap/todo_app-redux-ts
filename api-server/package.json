@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
-    "json-server": "^0.15.0"
+    "json-server": "^0.17.1"
   },
   "scripts": {
     "start": "json-server db.json -p 8086 -d 200"
